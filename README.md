@@ -1,4 +1,4 @@
-# login_page
+# Latihan_Kuis
 
 Nama    : Fathan Rasyidi Mustafa
 
