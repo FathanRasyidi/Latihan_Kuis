@@ -1,3 +1,7 @@
 # login_page
 
-A new Flutter project.
+Nama    : Fathan Rasyidi Mustafa
+
+NIM     : 124230089
+
+Kelas   : SI-A
