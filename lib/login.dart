@@ -127,10 +127,7 @@ class LoginPage extends StatelessWidget {
             controller: _userController,
             style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
             decoration: const InputDecoration(
-              hintStyle: TextStyle(
-                color: Colors.black87,
-                fontWeight: FontWeight.w500,
-              ),
+              hint: Text("Fathan", style: TextStyle(color: Colors.black26),),
               border: InputBorder.none,
               contentPadding: EdgeInsets.symmetric(
                 horizontal: 16,
@@ -167,10 +164,7 @@ class LoginPage extends StatelessWidget {
             controller: _passController,
             style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
             decoration: const InputDecoration(
-              hintStyle: TextStyle(
-                color: Colors.black87,
-                fontWeight: FontWeight.w500,
-              ),
+              hint: Text("kuis", style: TextStyle(color: Colors.black26),),
               border: InputBorder.none,
               contentPadding: EdgeInsets.symmetric(
                 horizontal: 16,

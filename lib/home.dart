@@ -66,16 +66,15 @@ class HomePage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              SizedBox(height: 10,),
               Expanded(
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal:  8.0),
+                  padding: const EdgeInsets.symmetric(horizontal:  8.0, vertical: 10),
                   child: GridView.builder(
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
                       crossAxisSpacing: 16,
                       mainAxisSpacing: 16,
-                      childAspectRatio: 0.89),
+                      mainAxisExtent: 220),
                     itemBuilder: (context, index) {
                       return _gameStore(context, index);
                     },

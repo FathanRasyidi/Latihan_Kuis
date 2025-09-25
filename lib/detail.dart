@@ -98,7 +98,7 @@ class DetailPage extends StatelessWidget {
               child: Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_2016_logo_black.svg/1920px-Steam_2016_logo_black.svg.png", width: 100,)),
           ),
         ),
-        SizedBox(height: 20,)
+        SizedBox(height: 5,)
         ],
       ),
     );
